@@ -1,0 +1,72 @@
+.addNewTodo-container {
+  max-width: 960px;
+  margin: 50px auto 0;
+}
+
+.addNewTodo-container h1 {
+  text-align: center;  
+}
+
+.addNewTodo-container p {
+  text-align: center;
+  margin-top: 20px;  
+  font-weight: bold
+}
+
+.addNewTodo-content {
+  max-width: 960px;
+  margin: 20px auto 0;
+  padding: 25px;
+  border: 1px solid #761214;
+  border-radius: 4px;  
+}
+
+.todoText {
+  width: 100%;
+  height: 30px;
+  display: block;
+  padding-left: 15px;
+}
+
+.addNewTodo-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.addNewTodo-button > .button {
+  background-color: #761214;
+  opacity: 0.96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.addNewTodo-button > .button:hover {
+  opacity: 1;
+}
+
+.checkBox-container {
+  margin: 15px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.checkBox-container > label {
+  margin-right: 10px;  
+}
+
+.back-button {
+  margin: 5px 0;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
